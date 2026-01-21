@@ -22,6 +22,7 @@ export default function RootLayout({ children }) {
 
             {/* Navigation Links */}
             <nav className="flex flex-wrap space-x-4">
+              <a href="/" className="text-gray-700 hover:text-blue-500">Home</a>
               <a href="/countries" className="text-gray-700 hover:text-blue-500">Countries</a>
               <a href="/regions" className="text-gray-700 hover:text-blue-500">Regions</a>
               <a href="/about" className="text-gray-700 hover:text-blue-500">About</a>
@@ -46,6 +47,3 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
-
-
-
